@@ -173,56 +173,56 @@ img {
   background: url('../img/design/design6.jpg') no-repeat center top / cover;
 }
 /* line 144, style.less */
-.item--large:nth-child(23) {
-  background: url('../img/digital/digital5.jpg') no-repeat center top / cover;
-}
-/* line 147, style.less */
 .item--large:nth-child(25) {
   background: url('../img/brand/brand5.jpg') no-repeat center top / cover;
 }
-/* line 151, style.less */
+/* line 147, style.less */
+.item--large:nth-child(20) {
+  background: url('../img/brand/brand6.jpg') no-repeat center top / cover;
+}
+/* line 150, style.less */
+.item--large:nth-child(22) {
+  background: url('../img/brand/brand7.jpg') no-repeat center top / cover;
+}
+/* line 154, style.less */
 .item--medium {
   grid-row-end: span 2;
 }
-/* line 154, style.less */
+/* line 157, style.less */
 .item--medium:nth-child(2) {
   background: url('../img/graphics/graphics1.jpg') no-repeat center top / cover;
 }
-/* line 157, style.less */
+/* line 160, style.less */
 .item--medium:nth-child(4) {
   background: url('../img/graphics/graphics2.jpg') no-repeat center top / cover;
 }
-/* line 160, style.less */
+/* line 163, style.less */
 .item--medium:nth-child(6) {
   background: url('../img/graphics/graphics3.jpg') no-repeat center top / cover;
 }
-/* line 163, style.less */
+/* line 166, style.less */
 .item--medium:nth-child(11) {
   background: url('../img/brand/brand3.jpg') no-repeat center top / cover;
 }
-/* line 166, style.less */
+/* line 169, style.less */
 .item--medium:nth-child(12) {
   background: url('../img/brand/brand4.jpg') no-repeat center top / cover;
 }
-/* line 169, style.less */
+/* line 172, style.less */
 .item--medium:nth-child(14) {
   background: url('../img/graphics/graphics4.jpg') no-repeat center top / cover;
 }
-/* line 172, style.less */
+/* line 175, style.less */
 .item--medium:nth-child(16) {
   background: url('../img/graphics/graphics5.jpg') no-repeat center top / cover;
 }
-/* line 175, style.less */
+/* line 178, style.less */
 .item--medium:nth-child(18) {
   background: url('../img/graphics/graphics3.jpg') no-repeat center top / cover;
 }
-/* line 178, style.less */
-.item--medium:nth-child(20) {
-  background: url('../img/brand/brand6.jpg') no-repeat center top / cover;
-}
 /* line 181, style.less */
-.item--medium:nth-child(22) {
-  background: url('../img/brand/brand7.jpg') no-repeat center top / cover;
+.item--medium:nth-child(23) {
+  background: url('../img/digital/digital5.jpg') no-repeat center top / cover;
 }
 /* line 184, style.less */
 .item--medium:nth-child(24) {
