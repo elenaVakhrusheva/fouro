@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Форма добавления значение в таблицу</h1>
+    
+    <div class="wrap-form">
+      <form action="" id="orderForm" method="get" name="addUser"  class="order-form" onclick="validate()"  >
+        <div class="order-form__field">
+          <input 
+            type="text" 
+            name="id"  
+            placeholder="ID"  
+            id="field-id"  
+            pattern="[0-1000]" 
+            required>
+        </div>
+        <div class="order-form__field">
+          <input type="text" name="name"  placeholder="Имя" id="field-name" pattern="[A-zА-яЁё]" minlength="2" maxlength="20"  required>
+        </div>
+        <div class="order-form__field">
+          <input 
+            type="text" 
+            name="lastname"  
+            placeholder="Фамилия" 
+            id="field-lastname" 
+            pattern="[A-zА-яЁё]" 
+            minlength="2" 
+            maxlength="20" 
+            required>
+        </div>
+        <div class="order-form__field">
+          <input type="email" name="" placeholder="E-mail" id="field-email" pattern="\S+@[a-z]+.[a-z]+">
+        </div>
+        <div class="order-form__field" >
+         <select class="field-select" id="field-selectCompany" required>
+          <optgroup label="Выберите компанию"> 
+            <option>Компания 1</option>
+            <option>Компания 2</option>
+            <option>Компания 3</option>
+            <option>Компания 4</option>
+            <option>Компания 5</option>
+          </optgroup>
+        </select> 
+        </div>
+        <div class="order-form__field">
+         <select class="field-select" id="field-selectPosition" required>
+           <optgroup label="Выберите должность">
+            <option>Должность 1</option>
+            <option>Должность 2</option>
+            <option>Должность 3</option>
+            <option>Должность 4</option>
+            <option>Должность 5</option>
+          </optgroup>
+        </select> 
+        </div>
+        <div class="order-form__field order-form__button" >
+          <button type="button" class="btn" name="" access="false"  id="submit">Добавить</button>
+        </div>
+      </form>
+    </div>
+
+    <table id="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Имя</th>
+          <th>Фамилия</th>
+          <th>Email</th>
+          <th>Компания</th>
+          <th>Должность</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="ID">1</td>
+          <td data-label="Имя">Иван</td>
+          <td data-label="Фамилия">Петров</td>
+          <td data-label="Email">ivan@mail.ru</td>
+          <td data-label="Компания">Компания 1</td>
+          <td data-label="Должность">Должность 1</td>
+        </tr>
+        <tr>
+          <td data-label="ID">2</td>
+          <td data-label="Имя">Петр</td>
+          <td data-label="Фамилия">Иванов</td>
+          <td data-label="Email">petr@mail.ru</td>
+          <td data-label="Компания">Компания 2</td>
+          <td data-label="Должность">Должность 2</td>
+        </tr>
+        <tr>
+          <td data-label="ID">3</td>
+          <td data-label="Имя">Алексей</td>
+          <td data-label="Фамилия">Фавритов</td>
+          <td data-label="Email">lex@mail.ru</td>
+          <td data-label="Компания">Компания 3</td>
+          <td data-label="Должность">Должность 3</td>
+        </tr>
+      </tbody>
+    </table>  
+  </div>  
+  <script src="/js/validate.js"></script>
+</body>
+</html>
+

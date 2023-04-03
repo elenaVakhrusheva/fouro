@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Сверстать сетку элементов с фильтром</h1>
+    
+
+    <div class="nav-photo">
+      <button class="btn active" onclick="filterSelection('all')"> All images</button>
+      <button class="btn" onclick="filterSelection('digital')"> Digital</button>
+      <button class="btn" onclick="filterSelection('design')"> Design</button>
+      <button class="btn" onclick="filterSelection('brand')"> Brand</button>
+      <button class="btn" onclick="filterSelection('graphics')"> Graphics</button>
+    </div>
+    <div class="count-photo">
+      <button class="btn count-photo-6" onclick="toogleCount6()">Хочу по 6 в ряд</button>
+      <button class="btn count-photo-3" onclick="toogleCount3()">Хочу по 3 в ряд</button>
+    </div>
+
+    <div class="container-photo count-photo-default">
+      <div class="filterDiv item--large digital show"><span>1 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium graphics brand show"><span>2 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large  digital show"><span>3 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium graphics show"><span>4 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large digital design show"><span>5 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium graphics show"><span>6 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large design show"><span>7 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large design show"><span>8 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large brand show"><span>9 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large brand design show"><span>10 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium brand show"><span>11 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium brand show"><span>12 - Lorem, ipsum dolor.</span></div>     
+      <div class="filterDiv item--large digital show"><span>13 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium graphics brand show"><span>14 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large  digital show"><span>15 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium graphics show"><span>16 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large digital design show"><span>17 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium graphics show"><span>18 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large design show"><span>19 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large design show"><span>20 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large brand show"><span>21 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--large brand design show"><span>22 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium brand show"><span>23 - Lorem, ipsum dolor.</span></div>
+      <div class="filterDiv item--medium brand show"><span>24 - Lorem, ipsum dolor.</span></div>  
+    </div>
+  </div>  
+  <script src="js/filter.js"></script>
+  <script src="js/changeCount.js"></script>
+</body>
+</html>
