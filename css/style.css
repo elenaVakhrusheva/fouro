@@ -224,31 +224,35 @@ img {
 .item--medium:nth-child(22) {
   background: url('../img/brand/brand7.jpg') no-repeat center top / cover;
 }
-/* line 185, style.less */
+/* line 184, style.less */
+.item--medium:nth-child(24) {
+  background: url('../img/graphics/graphics6.jpg') no-repeat center top / cover;
+}
+/* line 188, style.less */
 .count-photo-default {
   grid-template-columns: repeat(4, 1fr);
 }
-/* line 188, style.less */
+/* line 191, style.less */
 .count-photo-6 {
   grid-template-columns: repeat(6, 1fr);
 }
-/* line 191, style.less */
+/* line 194, style.less */
 .count-photo-3 {
   grid-template-columns: repeat(3, 1fr);
 }
 @media (max-width: 500px) {
-  /* line 197, style.less */
+  /* line 200, style.less */
   .container-photo {
     grid-template-columns: 100%;
     grid-template-rows: auto;
   }
 }
 /* ===== TASK 2 =========*/
-/* line 206, style.less */
+/* line 209, style.less */
 .wrap-form {
   margin-bottom: 2rem;
 }
-/* line 207, style.less */
+/* line 210, style.less */
 table {
   border: 1px solid #ccc;
   width: 100%;
@@ -257,50 +261,50 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* line 216, style.less */
+/* line 219, style.less */
 table tr {
   border: 1px solid #ddd;
   padding: 5px;
 }
-/* line 221, style.less */
+/* line 224, style.less */
 table th,
 table td {
   padding: 10px;
   text-align: center;
 }
-/* line 226, style.less */
+/* line 229, style.less */
 table th {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 600px) {
-  /* line 234, style.less */
+  /* line 237, style.less */
   table {
     border: 0;
   }
-  /* line 238, style.less */
+  /* line 241, style.less */
   table thead {
     display: none;
   }
-  /* line 242, style.less */
+  /* line 245, style.less */
   table tr {
     margin-bottom: 10px;
     display: block;
     border-bottom: 2px solid #ddd;
   }
-  /* line 248, style.less */
+  /* line 251, style.less */
   table td {
     display: block;
     text-align: right;
     font-size: 13px;
     border-bottom: 1px dotted #ccc;
   }
-  /* line 255, style.less */
+  /* line 258, style.less */
   table td:last-child {
     border-bottom: 0;
   }
-  /* line 259, style.less */
+  /* line 262, style.less */
   table td:before {
     content: attr(data-label);
     float: left;
@@ -308,7 +312,7 @@ table th {
     font-weight: bold;
   }
 }
-/* line 267, style.less */
+/* line 270, style.less */
 .order-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -332,7 +336,7 @@ table th {
   border-radius: 4px;
   max-width: 700px;
 }
-/* line 283, style.less */
+/* line 286, style.less */
 .order-form__field input,
 .order-form__field .field-select {
   font-size: 0.8rem;
@@ -343,49 +347,49 @@ table th {
   outline: none;
   background-color: #fff;
 }
-/* line 296, style.less */
+/* line 299, style.less */
 input[type="email"]:hover,
 input[type="text"]:hover {
   border: 2px solid #5469d4;
   outline: none;
 }
-/* line 302, style.less */
+/* line 305, style.less */
 .field-select {
   width: 100%;
 }
-/* line 306, style.less */
+/* line 309, style.less */
 #field-id {
   grid-area: id;
 }
-/* line 310, style.less */
+/* line 313, style.less */
 #field-name {
   grid-area: name;
 }
-/* line 314, style.less */
+/* line 317, style.less */
 #field-lastname {
   grid-area: lastname;
 }
-/* line 318, style.less */
+/* line 321, style.less */
 #field-email {
   grid-area: email;
 }
-/* line 322, style.less */
+/* line 325, style.less */
 #field-selectCompany {
   grid-area: company;
   position: relative;
 }
-/* line 327, style.less */
+/* line 330, style.less */
 #field-selectPosition {
   grid-area: position;
   text-align: center;
   position: relative;
 }
-/* line 333, style.less */
+/* line 336, style.less */
 #submit {
   grid-area: btn;
   text-align: center;
 }
-/* line 338, style.less */
+/* line 341, style.less */
 .btn#submit {
   background-color: #5469d4;
   -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, #5469d4 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
